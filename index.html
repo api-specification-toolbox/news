@@ -1,0 +1,228 @@
+---
+layout: default
+title: API Specification Toolbox
+---
+
+<div class="sidebar-page-container" style="padding-top: 10px;">
+    <div class="auto-container" style="padding-top: 15px;">
+
+        <p>This is a toolbox of many specifications, services, tools, people, and other resources. There is a lot of information available here, and it is something that is always expanding. Feel free to sort through all of the information here, or you can just get started with three of the most important specifications to the world of APIs.</p>
+        
+        <!--<center>
+            <div style="width: 100%; padding: 5px; text-align:center; background-color:#333333; color:#FFF;">
+                <a href="https://github.com/api-specification-toolbox/toolbox/issues/138" style="color: #FFF;" target="_blank"><strong>Join Us Every Thursday for API Specification Office Hours</strong></a>
+            </div>
+        </center>-->
+
+        <table width="100%" align="center" border="1">
+
+            <tr><td colspan="3"><hr></td></tr>
+
+            {% assign specifications = site.specifications %}
+            {% for entry in specifications %}
+            {% if entry.name == 'OpenAPI' %}
+
+            <tr>
+                <td width="24%" align="center">
+                    <a href="{{ entry.url }}"><img src="{{ entry.image }}" alt="" width="375"></a><br>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                            <tr>
+                                <td width="40%" align="center">
+                                    <a href="{{ entry.url }}"><img src="/images/learn.png" alt="" width="90"></a><br>
+                                    <a href="{{ entry.url }}">Learn</a>
+                                </td>
+                                <td width="60%">
+                                    <ul>
+                                        {% for common in entry.x-common %}
+                                            {% assign tagged = 0 %}
+                                            {% for tag in common.x-tags %}
+                                                {% if tag == 'Learn' %}
+                                                    {% assign tagged = 1 %}
+                                                {% endif %}
+                                            {% endfor %}
+                                            {% if tagged == 1 %}
+                                                <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                            <tr>
+                                <td width="40%" align="center">
+                                    <a href="{{ entry.url }}"><img src="/images/contribute.png" alt="" width="90"></a><br>
+                                    <a href="{{ entry.url }}">Contribute</a>
+                                </td>
+                                <td width="60%">
+                                    <ul>
+                                        {% for common in entry.x-common %}
+                                            {% assign tagged = 0 %}
+                                            {% for tag in common.x-tags %}
+                                                {% if tag == 'Contribute' %}
+                                                    {% assign tagged = 1 %}
+                                                {% endif %}
+                                            {% endfor %}
+                                            {% if tagged == 1 %}
+                                                <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+
+            {% endif %}
+            {% endfor %}
+
+            <tr><td colspan="3"><hr></td></tr>
+
+            {% for entry in specifications %}
+            {% if entry.name == 'AsyncAPI' %}
+
+            <tr>
+                <td width="24%" align="center">
+                    <a href="{{ entry.url }}"><img src="{{ entry.image }}" alt="" width="375"></a><br>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                            <tr>
+                                <td width="40%" align="center">
+                                    <a href="{{ entry.url }}"><img src="/images/learn.png" alt="" width="90"></a><br>
+                                    <a href="{{ entry.url }}">Learn</a>
+                                </td>
+                                <td width="60%">
+                                    <ul>
+                                        {% for common in entry.x-common %}
+                                            {% assign tagged = 0 %}
+                                            {% for tag in common.x-tags %}
+                                                {% if tag == 'Learn' %}
+                                                    {% assign tagged = 1 %}
+                                                {% endif %}
+                                            {% endfor %}
+                                            {% if tagged == 1 %}
+                                                <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                            <tr>
+                                <td width="40%" align="center">
+                                    <a href="{{ entry.url }}"><img src="/images/contribute.png" alt="" width="90"></a><br>
+                                    <a href="{{ entry.url }}">Contribute</a>
+                                </td>
+                                <td width="60%">
+                                    <ul>
+                                        {% for common in entry.x-common %}
+                                            {% assign tagged = 0 %}
+                                            {% for tag in common.x-tags %}
+                                                {% if tag == 'Contribute' %}
+                                                    {% assign tagged = 1 %}
+                                                {% endif %}
+                                            {% endfor %}
+                                            {% if tagged == 1 %}
+                                                <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                            {% endif %}
+                                        {% endfor %}
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+
+            {% endif %}
+            {% endfor %}
+
+            <tr><td colspan="3"><hr></td></tr>
+
+            {% for entry in specifications %}
+            {% if entry.name == 'JSON Schema' %}
+
+            <tr>
+                <td width="24%" align="center">
+                    <a href="{{ entry.url }}"><img src="{{ entry.image }}" alt="" width="375"></a><br>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                                <tr>
+                                    <td width="40%" align="center">
+                                        <a href="{{ entry.url }}"><img src="/images/learn.png" alt="" width="90"></a><br>
+                                        <a href="{{ entry.url }}">Learn</a>
+                                    </td>
+                                    <td width="60%">
+                                        <ul>
+                                            {% for common in entry.x-common %}
+                                                {% assign tagged = 0 %}
+                                                {% for tag in common.x-tags %}
+                                                    {% if tag == 'Learn' %}
+                                                        {% assign tagged = 1 %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                                {% if tagged == 1 %}
+                                                    <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                </td>
+                <td width="38%" align="center">
+                    <table width="100%"
+                                <tr>
+                                    <td width="40%" align="center">
+                                        <a href="{{ entry.url }}"><img src="/images/contribute.png" alt="" width="90"></a><br>
+                                        <a href="{{ entry.url }}">Contribute</a>
+                                    </td>
+                                    <td width="60%">
+                                        <ul>
+                                            {% for common in entry.x-common %}
+                                                {% assign tagged = 0 %}
+                                                {% for tag in common.x-tags %}
+                                                    {% if tag == 'Contribute' %}
+                                                        {% assign tagged = 1 %}
+                                                    {% endif %}
+                                                {% endfor %}
+                                                {% if tagged == 1 %}
+                                                    <li>&#8594; <a href="{{ common.url }}">{{ common.x-name }}</a></li>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </table>
+                </td>
+            </tr>
+
+            {% endif %}
+            {% endfor %}
+        </table><br>
+
+        <!---
+        <center>
+            <div style="width: 100%; padding: 5px; text-align:center; background-color:#333333; color:#FFF;">
+                <p style="margin-bottom: 0 !important;"><strong>Below is a calendar of containing all regular meetings and offices hours across the specifications. Feel free to jump in!</strong></p>
+            </div>
+        </center>
+        <br />
+        <center>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Etc%2FGMT&src=YXBpc3BlY3Rvb2xib3hAZ21haWwuY29t&src=dGJyYmZxNGRlNWJjbmd0OG9rdmV2NGxzdGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23039BE5&color=%23795548&showNav=1&showPrint=0&showTitle=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </center>
+        --->
+
+        <br />
+        <p>This project runs on Github allowing this entire directory to be run locally, forked to add information, and update the webite using pull request. We are happy to accept community submisions, and edit are always welcome! The goal of this site i to bring in as much information about the space as posible, then provide tools for filtering out the noise.</p>
+    </div>
+</div>
