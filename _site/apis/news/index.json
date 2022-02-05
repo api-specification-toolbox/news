@@ -1,0 +1,61 @@
+[
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/42crunch-publishes-new-openapi-security-audit-plugins-for-eclipse-intellij-pycharm.png",
+   "tags": ["AsyncAPI","Security","Eclipse","IntelliJ","PyCharm","IDE"],
+   "created": "",
+   "modified": "",
+   "url": "/news/42crunch-publishes-new-openapi-security-audit-plugins-for-eclipse-intellij-pycharm/"
+},
+
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/asyncapi-partners-with-postman-to-boost-development-of-asynchronous-apis.png",
+   "tags": ["AsyncAPI","Postman","Partnership"],
+   "created": "",
+   "modified": "",
+   "url": "/news/asyncapi-partners-with-postman-to-boost-development-of-asynchronous-apis/"
+},
+
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/band-protocol-becomes-first-blockchain-firm-to-join-openapi-initiative.png",
+   "tags": ["OpenAPI","Blockchain"],
+   "created": "",
+   "modified": "",
+   "url": "/news/band-protocol-becomes-first-blockchain-firm-to-join-openapi-initiative/"
+},
+
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/bringing-law-and-order-to-apis-with-openapi-specifications.png",
+   "tags": ["OpenAPI","Introduction","History"],
+   "created": "",
+   "modified": "",
+   "url": "/news/bringing-law-and-order-to-apis-with-openapi-specifications/"
+},
+
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/how-microcks-can-speed-up-your-asyncapi-adoption-part-1.png",
+   "tags": ["AsyncAPI","Testing","Mocking"],
+   "created": "",
+   "modified": "",
+   "url": "/news/how-microcks-can-speed-up-your-asyncapi-adoption-part-1/"
+},
+
+{
+   "name": "",
+   "description": "",
+   "image": "/images/news/implementers-draft-oas-31-rc1-available-for-feedback-please-respond-by-nov-8.png",
+   "tags": ["OpenAPI","Versions"],
+   "created": "",
+   "modified": "",
+   "url": "/news/implementers-draft-oas-31-rc1-available-for-feedback-please-respond-by-nov-8/"
+}
+]
