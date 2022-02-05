@@ -1,4 +1,0 @@
----
-name: Compute
-featured: false
----

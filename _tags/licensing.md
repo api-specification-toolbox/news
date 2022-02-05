@@ -1,4 +1,0 @@
----
-name: Licensing
-featured: false
----

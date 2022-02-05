@@ -1,4 +1,0 @@
----
-name: Schema
-featured: false
----

@@ -1,4 +1,0 @@
----
-name: Caching
-featured: false
----

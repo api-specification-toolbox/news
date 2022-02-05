@@ -1,4 +1,0 @@
----
-name: Templates
-featured: false
----

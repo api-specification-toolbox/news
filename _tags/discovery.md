@@ -1,4 +1,0 @@
----
-name: Discovery
-featured: false
----

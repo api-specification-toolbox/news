@@ -1,4 +1,0 @@
----
-name: Serverless
-featured: false
----

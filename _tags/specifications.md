@@ -1,4 +1,0 @@
----
-name: Specifications
-featured: false
----

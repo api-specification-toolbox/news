@@ -1,4 +1,0 @@
----
-name: Logging
-featured: false
----

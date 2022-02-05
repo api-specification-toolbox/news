@@ -1,4 +1,0 @@
----
-name: Encryption
-featured: false
----

@@ -1,4 +1,0 @@
----
-name: Management
-featured: false
----

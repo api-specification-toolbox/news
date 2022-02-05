@@ -1,4 +1,0 @@
----
-name: Monitoring
-featured: false
----

@@ -1,4 +1,0 @@
----
-name: Governance
-featured: false
----

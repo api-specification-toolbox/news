@@ -1,4 +1,0 @@
----
-name: WebSockets
-featured: false
----

@@ -1,4 +1,0 @@
----
-name: Clients
-featured: false
----

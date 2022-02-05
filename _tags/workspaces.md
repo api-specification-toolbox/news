@@ -1,4 +1,0 @@
----
-name: Workspaces
-featured: false
----
