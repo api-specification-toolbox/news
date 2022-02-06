@@ -3,12 +3,36 @@ layout: default
 title: API Specification Toolbox - News
 ---
 
-<div class="sidebar-page-container" style="padding-top: 10px;">
-    <div class="auto-container" style="padding-top: 15px;">
+<!--News Posts-->
+<div class="sidebar-page-container" style="padding-top: 40px;">
+    <div class="auto-container">
+       <div class="row clearfix">
 
-        <p>This is a toolbox of many specifications, services, tools, people, and other resources. There is a lot of information available here, and it is something that is always expanding. Feel free to sort through all of the information here, or you can just get started with three of the most important specifications to the world of APIs.</p>
+        <!--Content Side-->
+        <div class="content-side col-lg-8 col-md-12 col-sm-12">
 
-        <br />
-        <p>This project runs on Github allowing this entire directory to be run locally, forked to add information, and update the webite using pull request. We are happy to accept community submisions, and edit are always welcome! The goal of this site i to bring in as much information about the space as posible, then provide tools for filtering out the noise.</p>
-    </div>
+          {% include news/news-tag-tabs.html %}
+
+        </div>
+
+        <!--Sidebar Side-->
+        <div class="sidebar-side col-lg-4 col-md-12 col-sm-12">
+           <aside class="sidebar default-sidebar">
+              <div class="sidebar-inner">
+
+                <center><button class="button button4"><a href="/news/add/" style="color:#FFF;">Add or Update News in the Toolbox</a></button></center><br>
+
+                 {% include advertising/advertising-widget.html %}
+
+                 {% include news/news-tag-widget.html %}
+
+              </div>
+           </aside>
+
+        </div>
+
+     </div>
+
+  </div>
 </div>
+<!--End News Posts-->
